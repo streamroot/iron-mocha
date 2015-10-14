@@ -13,7 +13,7 @@ Locally :
 ## How to use it?
 
 Global :
-`iron mocha`
+`iron-mocha`
 
 Locally :
 `./node_modules/iron-mocha/bin/iron-mocha`
