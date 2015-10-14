@@ -17,6 +17,3 @@ Global :
 
 Locally :
 `./node_modules/iron-mocha/bin/iron-mocha`
-
-## test:
-To run unit tests, run `npm test`

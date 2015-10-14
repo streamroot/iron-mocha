@@ -1,0 +1,26 @@
+{
+  "name": "iron-mocha",
+  "version": "1.0.0",
+  "description": "Allow you to use iron-node with mocha.",
+  "main": "index.js",
+  "bin": {
+    "iron-node": "./bin/iron-mocha.js"
+  },
+  "dependencies": {
+    "iron-node": "^1.5.32",
+    "mocha": "^2.3.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/JonathanStreamroot/iron-mocha.git"
+  },
+  "keywords": [
+    "iron-node",
+    "mocha",
+    "test",
+    "debugger"
+  ],
+  "author": "Jonathan Forget",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/JonathanStreamroot/iron-mocha#readme"
+}
