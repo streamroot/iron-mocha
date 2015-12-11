@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "Allow you to use iron-node with mocha.",
   "main": "index.js",
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org/"
+  },
   "bin": {
-    "iron-node": "./bin/iron-mocha.js"
+    "iron-node": "./bin/iron-mocha"
   },
   "dependencies": {
     "iron-node": "^1.5.32",
@@ -12,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org/JonathanStreamroot/iron-mocha.git"
+    "url": "git+ssh://git@github.com:streamroot/iron-mocha.git"
   },
   "keywords": [
     "iron-node",
@@ -22,5 +25,5 @@
   ],
   "author": "Jonathan Forget",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/JonathanStreamroot/iron-mocha#readme"
+  "homepage": "https://github.com/streamroot/iron-mocha"
 }
