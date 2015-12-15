@@ -4,12 +4,12 @@
  * This tiny wrapper file checks for known node flags and appends them
  * when found, before invoking the "real" _mocha(1) executable.
  */
-
 var spawn = require('child_process').spawn,
   path = require('path'),
   fs = require('fs'),
-  args = [path.join(__dirname, '../node_modules/mocha/bin/_mocha')],
-  getOptions = require('../node_modules/mocha/bin/options');
+  mochaPath = require.resolve('mocha'),
+  args = [path.join(mochaPath, '../bin/_mocha')],
+  getOptions = require(path.join(mochaPath, '../bin/options'));
 
 // load mocha.opts into process.argv
 
