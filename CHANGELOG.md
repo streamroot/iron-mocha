@@ -5,4 +5,7 @@ This changelog's template come from [keepachangelog.com](http://keepachangelog.c
 
 ## [Unreleased]
 ### Changed
-- First release
+
+## [1.0.2] - 2015-12-15
+### Changed
+- Locate mocha instead of supposing it is in node_modules/ (isn't necessarily the case if it's a shared dependency)

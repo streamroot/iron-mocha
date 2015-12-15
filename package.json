@@ -1,7 +1,7 @@
 {
   "name": "iron-mocha",
-  "version": "1.0.1",
-  "description": "Allow you to use iron-node with mocha.",
+  "version": "1.0.2",
+  "description": "iron-node for mocha test suites",
   "main": "index.js",
   "publishConfig": {
     "registry": "http://registry.npmjs.org/"
